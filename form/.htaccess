@@ -1,0 +1,6 @@
+DirectoryIndex clipmail.html .ht
+AuthUserFile /home/jcjk-marketing/www/.htpasswd
+AuthType Basic
+AuthName "Web access"
+Satisfy all
+Order deny,allow
