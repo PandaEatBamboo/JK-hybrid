@@ -1,0 +1,8 @@
+ErrorDocument 403 /error/error_403.html
+ErrorDocument 404 /error/error_404.html
+DirectoryIndex index.html index.htm index.shtml index.php index.cgi index.html .ht
+AuthUserFile /home/jcjk-marketing/www/.htpasswd
+AuthType Basic
+AuthName "Web access"
+Satisfy all
+Order deny,allow
