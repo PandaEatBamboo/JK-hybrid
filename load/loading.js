@@ -1,4 +1,3 @@
-$(function(){
 
   function FinishAllLoading(){
     $("#LoadingPage").animate({
@@ -7,5 +6,3 @@ $(function(){
       $("#LoadingPage").remove();
     });
   }
-
-});

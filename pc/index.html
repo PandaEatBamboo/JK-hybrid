@@ -3,10 +3,17 @@
 <head>
 	<meta charset="UTF-8">
 	<title>JC・JK調査隊!!</title>
+	<link rel="stylesheet" type="text/css" href="../load/loading.css">
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
+    <meta name="viewport" content="width=device-width" />
 </head>
-<body>
+<body onload="FinishAllLoading()">
+	<div id="LoadingPage">
+		<div id="LoadingItemBox">
+			<div id="LoadingItem"></div>
+		</div>
+	</div>
 
 	<video src="../IMG/back.mp4" id="ContentBackVideo" loop autoplay></video>
 
@@ -223,6 +230,7 @@
 
 	</div>
 
+	<script async type="text/javascript" src="../load/loading.js"></script>
 	<script async type="text/javascript" src="./bundle.js"></script>
 </body>
 </html>
