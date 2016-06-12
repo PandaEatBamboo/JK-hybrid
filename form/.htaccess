@@ -1,4 +1,4 @@
-DirectoryIndex clipmail.html .ht
+DirectoryIndex honyamorke.html .ht
 AuthUserFile /home/jcjk-marketing/www/.htpasswd
 AuthType Basic
 AuthName "Web access"
