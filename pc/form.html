@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>JC・JK調査隊!!</title>
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+			<style>
+				#Content4 table {position: relative; left: 20%;}
+				body {background-color: #FFFFFF !important;}
+			</style>
+</head>
+<body>
+
+
+
+	<div class="Contents" id="Content4">
+
+		<div id="Content4HeaderBorderTop"></div>
+		<div id="Content4Header">JCJK調査隊応募用フォーム</div>
+
+		<form action="../form/clipmail.cgi" method="post" enctype="multipart/form-data">
+		<input type="hidden" name="match" value="email email2" />
+		<input type="hidden" name="need" value="clip-1 clip-2">
+		<table summary="応募フォーム" class="form">
+		<tr>
+			<th>お名前</th>
+			<td><input placeholder="お名前" type="text" name="_お名前" size="35" /></br>
+			<input placeholder="フリガナ" type="text" name="_フリガナ" size="35" /></td>
+		</tr><tr>
+			<th>学校名</th>
+			<td><input placeholder="学校名" type="text" name="_学校名" size="35" /></br>
+			<input placeholder="学年" type="text" name="_学年" size="35" /></td>
+		</tr><tr>
+			<th>メールアドレス</th>
+			<td>
+				<input placeholder="メールドレス" type="text" name="_email" size="35" /><br />
+				<input placeholder="再度入力" type="text" name="_email2" size="35" />
+			</td>
+		</tr><tr>
+			<th>ご希望役職</th>
+			<td>
+				<input type="checkbox" name="_ご希望役職" value="総務" />総務<br />
+				<input type="checkbox" name="_ご希望役職" value="リサーチ" />リサーチ<br />
+				<input type="checkbox" name="_ご希望役職" value="外務" />外務<br />
+				<input type="checkbox" name="_ご希望役職" value="メディア" />メディア<br />
+				<input type="checkbox" name="_ご希望役職" value="プランニング" />プランニング
+			</td>
+		</tr><tr>
+			<th>自己PR<br />調査隊でやりたいこと</th>
+			<td><textarea name="_自己PR他" rows="7" cols="48"></textarea></td>
+		</tr><tr>
+			<th>顔写真<br />（プリクラ不可）</th>
+			<td>
+				<input type="file" name="clip-1" size="50"><br />
+			</td>
+	</tr><tr>
+			<th>学生証</th>
+			<td>
+				<input type="file" name="clip-2" size="50"><br />
+			</td>
+		</tr>
+		</table>
+		<br />
+		<input type="submit" value="送信する" id="Content4SendBtn" />
+		</form>
+
+	</div>
+
+	<script type="text/javascript" src="./bundle.js"></script>
+</body>
+</html>
