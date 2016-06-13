@@ -46,3 +46,7 @@ Order deny,allow
 	AddOutputFilterByType DEFLATE application/x-javascript
 	AddOutputFilterByType DEFLATE application/x-httpd-php
 </IfModule>
+
+<FilesMatch "\.mp4$">
+  AddType video/mp4 .mp4
+</FilesMatch>
